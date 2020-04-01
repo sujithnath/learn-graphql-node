@@ -11,7 +11,7 @@
     "mongoose": "^5.9.7"
   },
   "scripts": {
-    "dev": "nodemon -r dotenv/config server/app"
+    "dev": "nodemon -r dotenv/config"
   },
   "devDependencies": {
     "dotenv": "^8.2.0"

@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 
 mongoose.connect(
   "mongodb+srv://sujith:sujith@cluster0-tziwc.mongodb.net/test?retryWrites=true&w=majority",
-  { useNewUrlParser: "true" },
+  { useNewUrlParser: "true", useUnifiedTopology: true },
 );
 mongoose.connection.on("error", error => {
   console.log(error);
